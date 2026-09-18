@@ -1,0 +1,69 @@
+{
+    "Logistic Regression": {
+        "before": {
+            "accuracy": 0.85,
+            "precision": 0.84,
+            "recall": 0.85,
+            "f1_score": 0.84,
+            "roc_auc": 0.90
+        },
+        "after": {
+            "accuracy": 0.87,
+            "precision": 0.86,
+            "recall": 0.87,
+            "f1_score": 0.86,
+            "roc_auc": 0.91
+        },
+        "best_parameters": {
+            "C": 1,
+            "solver": "liblinear",
+            "class_weight": "balanced"
+        }
+    },
+
+    "Decision Tree": {
+        "before": {
+            "accuracy": 0.78,
+            "precision": 0.78,
+            "recall": 0.78,
+            "f1_score": 0.78,
+            "roc_auc": 0.78
+        },
+        "after": {
+            "accuracy": 0.82,
+            "precision": 0.82,
+            "recall": 0.82,
+            "f1_score": 0.82,
+            "roc_auc": 0.82
+        },
+        "best_parameters": {
+            "criterion": "gini",
+            "max_depth": 5,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+        }
+    },
+
+    "Random Forest": {
+        "before": {
+            "accuracy": 0.86,
+            "precision": 0.85,
+            "recall": 0.86,
+            "f1_score": 0.85,
+            "roc_auc": 0.91
+        },
+        "after": {
+            "accuracy": 0.89,
+            "precision": 0.88,
+            "recall": 0.89,
+            "f1_score": 0.88,
+            "roc_auc": 0.93
+        },
+        "best_parameters": {
+            "n_estimators": 100,
+            "max_depth": 10,
+            "class_weight": "balanced"
+        }
+    }
+}
